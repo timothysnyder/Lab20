@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link href="StyleSheet.css" rel="stylesheet" />
+	<style>
+		.button {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<a href="/Home.html" class="button">Home</a>
+		<a href="/About Tim.html" class="button">About Tim</a>
+		<a href="/Portfolio.html" class="button">Tim's Portfolio</a>
+	</center>
+
+	<br />
+
+	<H1>Welcome to the Amazing Portfolio of Tim</H1>
+
+	<!--<img src="Images/Tim and Kenny Mayne at Kentucky Derby.jpeg" class="center" />
+
+	<br />-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+		<h2 class="w3-center">CPO Slideshow</h2>
+
+		<div class="w3-content w3-display-container">
+
+			<img class="mySlides" src="Images/1147.jpg" style="width:100%">
+			<img class="mySlides" src="Images/1148.jpg" style="width:100%">
+			<img class="mySlides" src="Images/autograph.jpg" style="width:100%">
+			<img class="mySlides" src="Images/Churchill Logo.jpg" style="width:100%">
+			<img class="mySlides" src="Images/cpo dom.jpg" style="width:100%">
+			<img class="mySlides" src="Images/Hooters.jpg" style="width:100%">
+			<img class="mySlides" src="Images/Miss America.jpg" style="width:100%">
+			<img class="mySlides" src="Images/PG8755620080507015831890569.jpg" style="width:100%">
+			<img class="mySlides" src="Images/PG875562008050701583362857.jpg" style="width:100%">
+			<img class="mySlides" src="Images/Picture 023.jpg" style="width:100%">
+			<img class="mySlides" src="Images/Picture 024.jpg" style="width:100%">
+			<img class="mySlides" src="Images/sb Hawaii.jpg" style="width:100%">
+			<img class="mySlides" src="Images/sb nbc interview.jpg" style="width:100%">
+			<img class="mySlides" src="Images/sb pin the jeulep.jpg" style="width:100%">
+			<img class="mySlides" src="Images/sb si cover model.jpg" style="width:100%">
+
+
+
+			<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x.length }
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				x[slideIndex - 1].style.display = "block";
+			}
+		</script>
+
+		
+
+
+
+		<h1>Site Navigation</h1>
+
+		<center>
+			<a href="/Home.html" class="button">Home</a>
+			<a href="/About Tim.html" class="button">About Tim</a>
+			<a href="/Portfolio.html" class="button">Tim's Portfolio</a>
+			<a href="https:linkedin.com/in/timothy-m-snyder/" class="button">Linkedin</a>
+			<a href="https:facebook.com/cpostymie/in/timothy-m-snyder/" class="button">Facebook</a>
+		</center>
+
+
+		<center>
+			<a href="https://www.facebook.com/cpostymie">
+				<img src="Images/facebook-icon-preview-400x400.png" alt="HTML tutorial" style="width:62px;height:62px;border:0">
+			</a>
+			<a href="https://www.linkedin.com/in/timothy-m-snyder/">
+				<img src="Images/linkedin.jpg" alt="HTML tutorial" style="width:52px;height:52px;border:0">
+			</a>
+		</center>
+
+	</body>
+
+</html>
+

@@ -1,0 +1,57 @@
+﻿h1 
+{
+	color:orange;
+	text-align:center;
+	font-family:'Comic Sans MS';
+}
+
+h2 
+{
+	color: orangered;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
+
+h3 
+{
+	color: orange;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
+
+
+.orangeFont 
+{
+	color:orange;
+	text-align:center;
+	font-family:'Comic Sans MS';
+}
+
+.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+object
+{
+	display: block;
+	margin: 0 auto;
+}
+.button
+ {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
